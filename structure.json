@@ -1,0 +1,80 @@
+[
+  {
+    "path": "secrets-of-joy",
+    "name": "secrets-of-joy",
+    "type": "folder",
+    "children": [
+      {
+        "path": "secrets-of-joy/ru.md",
+        "name": "ru.md",
+        "type": "file"
+      },
+      {
+        "path": "secrets-of-joy/story-1",
+        "name": "story-1",
+        "type": "folder",
+        "children": [
+          {
+            "path": "secrets-of-joy/story-1/img.jpg",
+            "name": "img.jpg",
+            "type": "file"
+          },
+          {
+            "path": "secrets-of-joy/story-1/ru.md",
+            "name": "ru.md",
+            "type": "file"
+          },
+          {
+            "path": "secrets-of-joy/story-1/ru.mp3",
+            "name": "ru.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "path": "secrets-of-joy/story-2",
+        "name": "story-2",
+        "type": "folder",
+        "children": [
+          {
+            "path": "secrets-of-joy/story-2/img.jpg",
+            "name": "img.jpg",
+            "type": "file"
+          },
+          {
+            "path": "secrets-of-joy/story-2/ru.md",
+            "name": "ru.md",
+            "type": "file"
+          },
+          {
+            "path": "secrets-of-joy/story-2/ru.mp3",
+            "name": "ru.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "path": "secrets-of-joy/story-4",
+        "name": "story-4",
+        "type": "folder",
+        "children": [
+          {
+            "path": "secrets-of-joy/story-4/img.jpg",
+            "name": "img.jpg",
+            "type": "file"
+          },
+          {
+            "path": "secrets-of-joy/story-4/ru.md",
+            "name": "ru.md",
+            "type": "file"
+          },
+          {
+            "path": "secrets-of-joy/story-4/ru.mp3",
+            "name": "ru.mp3",
+            "type": "file"
+          }
+        ]
+      }
+    ]
+  }
+]
