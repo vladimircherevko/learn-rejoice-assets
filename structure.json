@@ -32,6 +32,18 @@
         ]
       },
       {
+        "path": "secrets-of-joy/story-10",
+        "name": "story-10",
+        "type": "folder",
+        "children": [
+          {
+            "path": "secrets-of-joy/story-10/ru.md",
+            "name": "ru.md",
+            "type": "file"
+          }
+        ]
+      },
+      {
         "path": "secrets-of-joy/story-2",
         "name": "story-2",
         "type": "folder",
@@ -54,6 +66,18 @@
         ]
       },
       {
+        "path": "secrets-of-joy/story-3",
+        "name": "story-3",
+        "type": "folder",
+        "children": [
+          {
+            "path": "secrets-of-joy/story-3/ru.md",
+            "name": "ru.md",
+            "type": "file"
+          }
+        ]
+      },
+      {
         "path": "secrets-of-joy/story-4",
         "name": "story-4",
         "type": "folder",
@@ -71,6 +95,66 @@
           {
             "path": "secrets-of-joy/story-4/ru.mp3",
             "name": "ru.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "path": "secrets-of-joy/story-5",
+        "name": "story-5",
+        "type": "folder",
+        "children": [
+          {
+            "path": "secrets-of-joy/story-5/ru.md",
+            "name": "ru.md",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "path": "secrets-of-joy/story-6",
+        "name": "story-6",
+        "type": "folder",
+        "children": [
+          {
+            "path": "secrets-of-joy/story-6/ru.md",
+            "name": "ru.md",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "path": "secrets-of-joy/story-7",
+        "name": "story-7",
+        "type": "folder",
+        "children": [
+          {
+            "path": "secrets-of-joy/story-7/ru.md",
+            "name": "ru.md",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "path": "secrets-of-joy/story-8",
+        "name": "story-8",
+        "type": "folder",
+        "children": [
+          {
+            "path": "secrets-of-joy/story-8/ru.md",
+            "name": "ru.md",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "path": "secrets-of-joy/story-9",
+        "name": "story-9",
+        "type": "folder",
+        "children": [
+          {
+            "path": "secrets-of-joy/story-9/ru.md",
+            "name": "ru.md",
             "type": "file"
           }
         ]
