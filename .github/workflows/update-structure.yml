@@ -1,10 +1,11 @@
 name: Update Structure on Push
 
-# Указывает, что workflow должен запускаться на push в любую ветку
 on:
   push:
     branches:
-      - main # Укажи здесь нужную ветку
+      - main
+    tags:
+      - '*'
 
 jobs:
   update-structure:
