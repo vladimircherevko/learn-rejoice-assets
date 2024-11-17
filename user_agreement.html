@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Учимся радоваться</title>
+    <title>Learning to rejoice</title>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
       body {
@@ -20,17 +20,18 @@
   </head>
   <body>
     <div id="markdown-container"></div>
-
     <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const lang = urlParams.get("lang") || "ru";
       fetch(
-        "https://cdn.jsdelivr.net/gh/vladimircherevko/learn-rejoice-assets@main/user_agreement.md"
+        `https://cdn.jsdelivr.net/gh/vladimircherevko/learn-rejoice-assets@main/user_agreement_${lang}.md`
       )
         .then((response) => response.text())
         .then((markdown) => {
-          const container = document.getElementById("markdown-container");          
+          const container = document.getElementById("markdown-container");
           container.innerHTML = marked.parse(markdown);
         })
-        .catch((error) => console.error("Ошибка загрузки файла:", error));
+        .catch((error) => console.error(error));
     </script>
   </body>
 </html>
