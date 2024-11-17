@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Учимся радоваться</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 16px;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Учимся радоваться</h1>
+    <div id="markdown-container"></div>
+
+    <script>
+        fetch('https://cdn.jsdelivr.net/gh/vladimircherevko/learn-rejoice-assets@main/user_agreement.md')
+            .then(response => response.text())
+            .then(markdown => {
+                const container = document.getElementById('markdown-container');
+                container.innerHTML = marked(markdown);
+            })
+            .catch(error => console.error('Ошибка загрузки файла:', error));
+    </script>
+</body>
+</html>
