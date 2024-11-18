@@ -10,4 +10,4 @@
 
 ✨ Начнем наш путь к радости?
  
-*Продолжая, вы принимаете [Пользовательское соглашение](https://vladimircherevko.github.io/learn-rejoice-assets/user_agreement.html?lang=ru).*
+*Продолжая, вы принимаете [Пользовательское соглашение](user_agreement_ru.md).*
