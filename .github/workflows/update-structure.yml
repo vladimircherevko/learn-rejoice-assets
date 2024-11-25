@@ -10,6 +10,8 @@ on:
 jobs:
   update-structure:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       # Шаг 1: Клонирование репозитория
