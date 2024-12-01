@@ -1,5 +1,8 @@
 {
   "ru": {
-    "topics": "Темы"
+    "topics": "Темы",
+    "start": "Начать",
+    "read": "Читать",
+    "completed_stoyies": "Прочитано историй"
   }
 }
