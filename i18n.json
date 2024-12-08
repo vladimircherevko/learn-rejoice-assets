@@ -3,6 +3,9 @@
     "topics": "Темы",
     "start": "Начать",
     "read": "Читать",
-    "completed_stoyies": "Прочитано историй"
+    "completed_stories": "Прочитано историй",
+    "user_agreement": "Пользовательское соглашение",
+    "privacy_policy": "Политика конфиденциальности",
+    "about_app": "О приложении"
   }
 }
